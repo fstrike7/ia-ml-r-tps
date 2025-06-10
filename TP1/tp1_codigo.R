@@ -12,7 +12,7 @@ print(summary(mtcars))
 hist(mtcars$mpg, main="Faustino", col="steelblue")
 
 # Parte B - Punto 1: Particionado
-set.seed(43828173)  # Usando el DNI
+set.seed(12345678)
 particion <- createDataPartition(y = mtcars$mpg, p = 0.70, list = FALSE)
 entreno <- mtcars[particion, ]
 testeo <- mtcars[-particion, ]
