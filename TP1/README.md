@@ -7,6 +7,7 @@
 ## Ejercicio 1 – Parte teórica
 
 **¿Por qué es importante testear en un modelo de Machine Learning?**
+
 Hay que garantizar que el modelo funcione bien con datos nuevos, testearlo me permite saber si realmente aprendió patrones o solo memorizó ejemplos.
 Además es fundamental tomar decisiones basadas en evidencia, en casos extremos (como evaluar si un paciente tiene cáncer o no) no se puede confiar solo porque "parece funcionar", las decisiones/resultados se deben respaldar con tests.
 Por último, probar y comparar entre distintos modelos con tests nos permite decidir cuál es mejor y por qué.
